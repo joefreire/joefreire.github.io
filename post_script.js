@@ -16,7 +16,9 @@ const asyncGetCall = async () => {
         const data = await response.json();
         console.log(data);
     } catch (error) {
-        console.log(error)
+        console.log(error, '3')
     }
 }
+
+
 asyncGetCall();
