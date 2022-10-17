@@ -5,9 +5,6 @@ const asyncGetCall = async () => {
             method: 'POST',
             headers: {
                 "Content-Type": "application/json",
-                "Access-Control-Allow-Headers" : "Content-Type",
-                "Access-Control-Allow-Origin": "https://www.example.com",
-                "Access-Control-Allow-Methods": "OPTIONS,POST,GET"
             },
             body: JSON.stringify({
                 location: window.location
@@ -19,6 +16,4 @@ const asyncGetCall = async () => {
         console.log(error, '3')
     }
 }
-
-
 asyncGetCall();
