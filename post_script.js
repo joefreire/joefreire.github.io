@@ -1,6 +1,6 @@
 const asyncGetCall = async () => {
     try {
-        const url = 'https://dev.kokos.io/analytics/'
+        const url = 'https://analytics.dev.kokos.io/analytics/'
         const response = await fetch(url, {
             method: 'POST',
             headers: {
